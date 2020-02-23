@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Weather</title>
+    <title>Weather Dashboard</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -27,7 +27,12 @@
         <div class="col-sm-4">
           <h5>Search for a City:</h5>
           <form class="form-inline my-2 my-lg-0">
-            <input id ="citySearch" class="form-control mr-sm-2" type="search" placeholder="Testing" />
+            <input
+              id="citySearch"
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+            />
             <button id="click" class="btn bg-primary text-white">
               <i class="fas fa-search"></i>
             </button>
@@ -45,18 +50,44 @@
         <div class="col-sm-4"></div>
         <div class="col-sm-8 border-left border-top">
           <h3>5-Day Forcast:</h3>
-          <p class="card-columns">days</p>
+          <div class="row d-flex justify-content-start">
+            <div class="col-sm-2">
+              <h5>day</h5>
+              <p class="temp1">Temp:</p>
+              <p class="humid1">Humidity:</p>
+            </div>      
+            <div class="col-sm-2">
+              <h5>day</h5>
+              <p class="temp2">Temp:</p>
+              <p class="humid2">Humidity:</p>
+            </div>
+            <div class="col-sm-2">
+              <h5>day</h5>
+              <p class="temp3">Temp:</p>
+              <p class="humid3">Humidity:</p>
+            </div> 
+            <div class="col-sm-2">
+              <h5>day</h5>
+              <p class="temp4">Temp:</p>
+              <p class="humid4">Humidity:</p>
+            </div> 
+            <div class="col-sm-2">
+              <h5>day</h5>
+              <p class="temp5">Temp:</p>
+              <p class="humid5">Humidity:</p>
+            </div>     
         </div>
-      </div>        
+      </div>
     </div>
     <script
       src="https://kit.fontawesome.com/86e0a13598.js"
       crossorigin="anonymous"
     ></script>
     <script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"></script>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
