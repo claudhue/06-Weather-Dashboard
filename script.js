@@ -3,7 +3,7 @@ e.preventDefault();
 
 var searchedCity = $("#citySearch").val();
 
-var queryURL = "http://api.openweathermap.org/data/2.5/forecast?q=" + searchedCity + "&cnt=7&APPID=79ad2202cb3cb3e2b38a9622377b75bf";
+var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + searchedCity + "&cnt=7&APPID=79ad2202cb3cb3e2b38a9622377b75bf";
 
 
 $.ajax({
