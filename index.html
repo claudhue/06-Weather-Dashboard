@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div
+      class="jumbotron jumbotron-fluid text-center p-2 mb-1 bg-dark text-white"
+    >
+      <div class="container">
+        <h1 class="display-4 font-weight-normal">Weather Dashboard</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row border-left border-right border-top">
+        <div class="col-sm-4">
+          <h5>Search for a City:</h5>
+          <form class="form-inline my-2 my-lg-0">
+            <input id ="citySearch" class="form-control mr-sm-2" type="search" placeholder="Testing" />
+            <button id="click" class="btn bg-primary text-white">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+        <div class="col-sm-8 border-left">
+          <h3 class="city">City</h3>
+          <p class="temp">Temperature:</p>
+          <p class="humid">Humidity:</p>
+          <p class="ws">Wind Speed:</p>
+          <p class="uvi">UV Index:</p>
+        </div>
+      </div>
+      <div class="row border-left border-right border-bottom">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-8 border-left border-top">
+          <h3>5-Day Forcast:</h3>
+          <p class="card-columns">days</p>
+        </div>
+      </div>        
+    </div>
+    <script
+      src="https://kit.fontawesome.com/86e0a13598.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
