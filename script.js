@@ -21,13 +21,6 @@ $(".humid").text("Humidity: " + response.list[0].main.humidity);
 $(".ws").text("Wind Speed: " + response.list[0].wind.speed);
 $(".temp").text("Temperature: " + response.list[0].main.temp);
 
-var lat = $(response.city.coord.lat);
-console.log(lat);
-var lon = $(response.city.coord.lon);
-console.log(lon);
-
 });
-
-
 
 });
